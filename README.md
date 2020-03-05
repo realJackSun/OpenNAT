@@ -1,2 +1,2 @@
 # DML4J
-Distributed-Machine-Learning-for-
+Distributed-Machine-Learning-for-Java
