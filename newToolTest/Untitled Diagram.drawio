@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T06:30:49.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="4VaL82LjvlQlVoCP5Inc" version="15.6.8" type="github"><diagram id="w8OK4iNQ3MIWPr3b5XFv" name="Page-1">jZJNT4QwEIZ/DUcTStfd9aiIeNFoSDTx1tCRNimUdMsC/nqLnfKRzSaeOn3mozPvNKJpPeSGteJFc1BREvMhoo9RkhBKj+6YyOjJgRAPKiM5Bi2gkD+AMEbaSQ6nTaDVWlnZbmGpmwZKu2HMGN1vw7612r7asgouQFEydUk/JbfC02NyWPgzyEqEl8n+zntqFoJxkpNgXPcrRLOIpkZr6616SEFN4gVdfN7TFe/cmIHG/ichr7P2/JV2+e7NivsPwd+T1xuscmaqw4GxWTsGBYzuGg5TkTiiD72QFoqWlZO3dzt3TNhauRtxJpYDY2G42ieZp3ffBnQN1owuBBPo7c6n4I9JYhSwX/QnQVSx0n6PjOHKq7n0ooozUJhwXRbw51t9Y5r9Ag==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T06:48:08.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="OdRMqZGiimq_L7fp0-SU" version="15.6.8" type="github">
+  <diagram id="w8OK4iNQ3MIWPr3b5XFv" name="Page-1">
+    <mxGraphModel dx="1338" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SzeubQiFRqJBc4d0boi--14" value="其他Dapr自定义组件" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GmEpvZCuG4PthAVhdQ2N-1" value="自建Nacos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--1" value="MSE-Nacos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--2" value="业务1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--4" value="Nacos-Dapr-agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--6" value="业务2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--7" value="Nacos-agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SzeubQiFRqJBc4d0boi--8" value="其他Dapr自定义组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
