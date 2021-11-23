@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T11:56:26.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="XaIfcF8ITXlRv5zEQkyT" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T12:02:23.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="v3JwEH8yvcTGFOa7BG4J" version="15.8.2" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
     <mxGraphModel dx="1735" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,13 +56,13 @@
           <mxGeometry x="750" y="565" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="502.5" width="20" height="185" as="geometry" />
+          <mxGeometry x="1020" y="502.5" width="20" height="897.5" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-20" value="RamPermissionService.hasPermission" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1040" y="565" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1281" y="345" width="20" height="500" as="geometry" />
+          <mxGeometry x="1281" y="240" width="20" height="720" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-22" value="AuthFilter.doFilter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="355" width="120" height="60" as="geometry" />
@@ -156,6 +156,9 @@
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-48" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1841.5" y="722.5" width="20" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-49" value="AuthResourceService.isResourceOwner(account.getParentUserId())&lt;br&gt;判断这个resource是不是属于相应的父账号的。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="1310" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
