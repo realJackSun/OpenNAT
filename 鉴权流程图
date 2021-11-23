@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T09:44:27.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="wAeZkv7_s4tvLlVRcVtW" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T09:51:14.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="haHZQYuY3R02CzlVNsa6" version="15.8.2" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
     <mxGraphModel dx="1735" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint x="1480" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHWeom3NAk1b6IJDoaqx-30" value="将action转化为引擎侧支持的类型（RamPermissionService.getActionType)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-30" value="将action转化为引擎侧支持的类型&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ActionTypes actionType = getActionType(action);&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="1574.75" y="562" width="383.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-28" target="wHWeom3NAk1b6IJDoaqx-30">
