@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T09:27:14.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="fzIB6eTw8jUQfsEnGjkE" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T09:36:37.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="uVav7IeR_w-885cJGznF" version="15.8.2" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
     <mxGraphModel dx="1735" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,13 +74,31 @@
           <mxGeometry x="1301" y="535" width="220" height="35" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1522" y="493" width="20" height="120" as="geometry" />
+          <mxGeometry x="1521" y="332.5" width="20" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="wHWeom3NAk1b6IJDoaqx-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;policyString = ramService.getPolicyString(parentUid, subuserId);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="493" width="450" height="30" as="geometry" />
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;从ram远程拉取policy&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;policyString = ramService.getPolicyString(parentUid, subuserId);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="340" width="449" height="51" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-27" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;如果有&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;admin&lt;/span&gt;权限，就直接返回&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;true&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="470" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-28" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;遍历policy里面的每一个Statement，从中拿出来resource和action&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1589.75" y="451.5" width="353.5" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-26" target="wHWeom3NAk1b6IJDoaqx-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="320" as="sourcePoint" />
+            <mxPoint x="1480" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-30" value="将action转化为引擎侧支持的类型（RamPermissionService.getActionType)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1574.75" y="562" width="383.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-28" target="wHWeom3NAk1b6IJDoaqx-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="730" as="sourcePoint" />
+            <mxPoint x="1810" y="680" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
