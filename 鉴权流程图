@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T08:12:58.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="wKmZTDjwHqeUEH5n3SkO" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T09:27:14.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="fzIB6eTw8jUQfsEnGjkE" version="15.8.2" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
-    <mxGraphModel dx="942" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,19 +35,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-9" value="AuthService.hasAdminPermission&lt;br&gt;查看是否具有admin权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="280" width="220" height="50" as="geometry" />
+          <mxGeometry x="470" y="375" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wHWeom3NAk1b6IJDoaqx-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="470" width="120" height="60" as="geometry" />
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-11" value="AuthService.checkPermission(accessKey, permission.getResource(), permission.getAction(), ip) 查询是否具有指定resource和action的权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="565" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-9" target="wHWeom3NAk1b6IJDoaqx-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="490" as="sourcePoint" />
-            <mxPoint x="810" y="440" as="targetPoint" />
+            <mxPoint x="720" y="585" as="sourcePoint" />
+            <mxPoint x="770" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHWeom3NAk1b6IJDoaqx-13" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;如果有admin权限，就直接返回true&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="370" width="160" height="60" as="geometry" />
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="365" width="50" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="482.5" width="20" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-18" value="AuthResourceService.checkPermissionAdapter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="565" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="502.5" width="20" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-20" value="RamPermissionService.hasPermission" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="565" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="535" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-22" value="AuthFilter.doFilter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="20" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-24" value="parse2MseRamPolicy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="535" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="493" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;policyString = ramService.getPolicyString(parentUid, subuserId);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="493" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-27" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34;&quot;&gt;如果有&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;admin&lt;/span&gt;权限，就直接返回&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;true&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="470" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
