@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T11:37:27.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="gGpnoE_BjKoa0qFAz0Yv" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T11:52:20.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="8l60_IUmGbTvjU1rcpR6" version="15.8.2" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
     <mxGraphModel dx="1735" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,13 +124,22 @@
         <mxCell id="wHWeom3NAk1b6IJDoaqx-38" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;evaluate(mseResource, permissionRequest)&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1652.5" y="707.5" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wHWeom3NAk1b6IJDoaqx-39" value="先从本地拿出”我属于的instance_id“" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1674.5" y="810" width="228" height="60" as="geometry" />
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-39" value="先从本地拿出”我属于的instance_id，和Ram上配置的进行比对" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1603.75" y="810" width="367.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wHWeom3NAk1b6IJDoaqx-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-38" target="wHWeom3NAk1b6IJDoaqx-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1850" y="1040" as="sourcePoint" />
             <mxPoint x="1900" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-41" value="再从请求中拿出&quot;resourceType&quot;，和Ram上配置的进行比对" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1603.75" y="910" width="366.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHWeom3NAk1b6IJDoaqx-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wHWeom3NAk1b6IJDoaqx-39" target="wHWeom3NAk1b6IJDoaqx-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="1010" as="sourcePoint" />
+            <mxPoint x="2240" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
