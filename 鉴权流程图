@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T06:18:26.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="mJX1Oekr3RuVohpaNciG" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T07:36:42.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Ag5YyOVEvU91rVuMWZ6z" version="15.8.6" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
-    <mxGraphModel dx="2364" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
           <mxGeometry x="1046" y="1310" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pqcLXYTxen4A3keMg3qM-1" value="从Pop请求中创建resource列表&lt;br&gt;RamClient.createResourceList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="1560" width="260" height="70" as="geometry" />
+          <mxGeometry x="1322" y="1550" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pqcLXYTxen4A3keMg3qM-2" value="RamClient进行authorize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1690" width="120" height="60" as="geometry" />
@@ -192,6 +192,15 @@
         </mxCell>
         <mxCell id="pqcLXYTxen4A3keMg3qM-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="1650" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pqcLXYTxen4A3keMg3qM-14" value="从Pop请求构造发往ram那边的请求&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Map&amp;lt;String, RamAuthRequest&amp;gt; authRequestMap = createFromHttpRequest(popRequest, resourceList, ramAction);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="1675" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pqcLXYTxen4A3keMg3qM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pqcLXYTxen4A3keMg3qM-1" target="pqcLXYTxen4A3keMg3qM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1920" as="sourcePoint" />
+            <mxPoint x="1420" y="1870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
