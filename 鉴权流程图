@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T09:52:46.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ODIR10nxkeU4HZ7cxHV5" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T03:51:31.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="FoVy_WDgmg0AaLVg9eAT" version="15.8.6" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
-    <mxGraphModel dx="1274" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1772" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,61 +160,61 @@
         <mxCell id="wHWeom3NAk1b6IJDoaqx-49" value="AuthResourceService.isResourceOwner(account.getParentUserId())&lt;br&gt;判断这个resource是不是属于相应的父账号的。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1046" y="1310" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-1" value="从Pop请求中创建resource列表&lt;br&gt;RamClient.createResourceList&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;action:ListClusters&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;resource:acs:mse:cn-hangzhou:1917515276707555:*&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-1" value="从Pop请求中创建resource列表&lt;br&gt;RamClient.&lt;b&gt;createResourceList&lt;/b&gt;&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;action:ListClusters&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;resource:acs:mse:cn-hangzhou:1917515276707555:*&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1375" y="1555" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-2" value="RamClient进行authorize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-2" value="RamClient进行authorize" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1505" width="20" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-5" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;RamClient进行&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;authorizePopRoaRequest&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-5" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;RamClient进行&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;authorizePopRoaRequest&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="1680" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1660" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-7" value="RamPrivilegeFilter.doFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-7" value="RamPrivilegeFilter.doFilter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="2065" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="1715" width="20" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-9" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;#58&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ramService.checkPermission(request);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-9" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;#58&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ramService.checkPermission(request);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="1685" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-11" value="RamClient进行&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;checkPermission&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-11" value="RamClient进行&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;checkPermission&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1685" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="1655" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="1650" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-14" value="从Pop请求构造发往ram那边的请求&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Map&amp;lt;String, RamAuthRequest&amp;gt; authRequestMap = createFromHttpRequest(popRequest, resourceList, ramAction);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-14" value="从Pop请求构造发往ram那边的请求&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Map&amp;lt;String, RamAuthRequest&amp;gt; authRequestMap = createFromHttpRequest(popRequest, resourceList, ramAction);&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1345" y="1680" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pqcLXYTxen4A3keMg3qM-1" target="pqcLXYTxen4A3keMg3qM-14">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pqcLXYTxen4A3keMg3qM-1" target="pqcLXYTxen4A3keMg3qM-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1423" y="1925" as="sourcePoint" />
             <mxPoint x="1473" y="1875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-18" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;查询这个子账号是否有这个东西的权限&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;batchCheckPermissionForSubUser(&lt;i&gt;ramAuthChecker&lt;/i&gt;, authRequestMap,&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;Long.&lt;i&gt;parseLong&lt;/i&gt;(callerParentId),&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;Long.&lt;i&gt;parseLong&lt;/i&gt;(callerUid));&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-18" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;查询这个子账号是否有这个东西的权限&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;batchCheckPermissionForSubUser(&lt;i&gt;ramAuthChecker&lt;/i&gt;, authRequestMap,&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;Long.&lt;i&gt;parseLong&lt;/i&gt;(callerParentId),&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;Long.&lt;i&gt;parseLong&lt;/i&gt;(callerUid));&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="1850" width="510" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pqcLXYTxen4A3keMg3qM-14" target="pqcLXYTxen4A3keMg3qM-18">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pqcLXYTxen4A3keMg3qM-14" target="pqcLXYTxen4A3keMg3qM-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1480" y="1800" as="sourcePoint" />
             <mxPoint x="1630" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="1835" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pqcLXYTxen4A3keMg3qM-22" value="逐个resource检查是否同意继续&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ramAuthChecker.checkPermissonForSubUser&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqcLXYTxen4A3keMg3qM-22" value="逐个resource检查是否同意继续&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ramAuthChecker.checkPermissonForSubUser&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1782.5" y="1865" width="257.5" height="60" as="geometry" />
         </mxCell>
       </root>
