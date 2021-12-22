@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T03:51:31.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="FoVy_WDgmg0AaLVg9eAT" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T08:45:51.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="4RRS-WXkrmELbgeyG4DD" version="15.8.7" type="github">
   <diagram id="KHTxeZb80fiqxAxIxDZ8" name="Page-1">
-    <mxGraphModel dx="1772" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,6 +216,78 @@
         </mxCell>
         <mxCell id="pqcLXYTxen4A3keMg3qM-22" value="逐个resource检查是否同意继续&lt;br&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ramAuthChecker.checkPermissonForSubUser&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1782.5" y="1865" width="257.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-1" value="Pod内置地址服务器（nginx）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2793" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2778" width="660" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.331;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gCd5b2alUJLPQK7ABECl-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="2723" as="sourcePoint" />
+            <mxPoint x="485" y="2793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.71;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.449;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="gCd5b2alUJLPQK7ABECl-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527" y="2791.02" as="sourcePoint" />
+            <mxPoint x="527" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-7" value="SLB的地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2690.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-8" value="SLB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2591" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-9" value="Nacos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2793" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.461;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gCd5b2alUJLPQK7ABECl-8" target="gCd5b2alUJLPQK7ABECl-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="2743" as="sourcePoint" />
+            <mxPoint x="860" y="2693" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-11" value="请求2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2733" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-13" value="Nacos节点Pod" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2863" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-15" value="Diamond客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2390" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.71;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.449;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="2591" as="sourcePoint" />
+            <mxPoint x="530.1500000000001" y="2449.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.331;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485.8499999999999" y="2449" as="sourcePoint" />
+            <mxPoint x="485" y="2591" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-18" value="&lt;div&gt;请求1:&lt;/div&gt;&lt;div&gt;curl &#39;${mse_addr}:8080/diamond-server/diamond&#39;&lt;/div&gt;&lt;div&gt;尝试访问diamond地址服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2480" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.806;exitY=1.017;exitDx=0;exitDy=0;entryX=0.937;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="gCd5b2alUJLPQK7ABECl-15" target="gCd5b2alUJLPQK7ABECl-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="827" y="2550" as="sourcePoint" />
+            <mxPoint x="933.0300000000002" y="2707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-21" value="请求2：&lt;br&gt;进行Diamond业务请求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-22" value="请求1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2710" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCd5b2alUJLPQK7ABECl-23" value="通过HTTP报文中的HOST字段，获取SLB地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2853" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
