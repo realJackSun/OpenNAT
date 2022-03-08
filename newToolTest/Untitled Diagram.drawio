@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T09:29:52.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ScCCoomP311AGlU9aIWV" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T09:37:16.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Ap-aGjUcwF8dy2JSlsaG" version="16.6.5" type="github">
   <diagram id="Uhu2Ll49Uh4k2IdSFsoS" name="Page-1">
     <mxGraphModel dx="1364" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,76 +298,76 @@
         <mxCell id="-PRiL7OBCbt_mv9-A4bU-72" value="采集" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="2030" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1310" y="1054.5" width="480" height="231" as="geometry" />
         </mxCell>
         <mxCell id="O2QCgnUelPA72kU04q-o-5" value="云原生网关" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="1300" width="120" height="60" as="geometry" />
+          <mxGeometry x="2050" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-6" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-6" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-7" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-7" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-8" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-8" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1180" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-9" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-9" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1054.5" width="480" height="231" as="geometry" />
         </mxCell>
         <mxCell id="O2QCgnUelPA72kU04q-o-11" value="配置中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="1300" width="120" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-12" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-12" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2040" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-13" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-13" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2180" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-14" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-14" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1900" y="1180" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-16" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-16" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1900" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1410" width="480" height="231" as="geometry" />
         </mxCell>
         <mxCell id="O2QCgnUelPA72kU04q-o-18" value="注册中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="1655.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1655.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-19" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-19" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2040" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-20" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-20" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2180" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-21" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-21" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1900" y="1535.5" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-22" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-22" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1900" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1310" y="1410" width="480" height="231" as="geometry" />
         </mxCell>
         <mxCell id="O2QCgnUelPA72kU04q-o-34" value="ZooKeeper" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="1655.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="2050" y="1655.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-35" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-35" value="日志采集到SLS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-36" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-36" value="日志采集到Loki" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-37" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-37" value="客户端操作记录--IP采集到日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1535.5" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2QCgnUelPA72kU04q-o-38" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O2QCgnUelPA72kU04q-o-38" value="日志格式化" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1455.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
