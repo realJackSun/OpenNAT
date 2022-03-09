@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T02:53:43.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="0ZGkL9wcORqo6TXm-oXC" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T02:54:13.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="eC_oNCZPvAdFVtTu2BwY" version="16.6.5" type="github">
   <diagram id="Uhu2Ll49Uh4k2IdSFsoS" name="Page-1">
     <mxGraphModel dx="3018" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="-PRiL7OBCbt_mv9-A4bU-48" value="ZooKeeper log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" parent="1" vertex="1">
           <mxGeometry x="750" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-PRiL7OBCbt_mv9-A4bU-50" value="SLS查询SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="-PRiL7OBCbt_mv9-A4bU-50" value="数据源查询SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-PRiL7OBCbt_mv9-A4bU-51" value="采集" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
